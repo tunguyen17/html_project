@@ -1,0 +1,60 @@
+/*background*/
+body{
+	background-color:rgb(213,196,161);
+	margin:1%;
+	overflow-x:hidden;
+}
+
+
+/*for horizontal rule*/
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}	
+
+/* Menu stuffs*/
+ul.menu{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#bda36c;
+}
+ul.menu li{float:left;} /*Display the list as a line*/
+ul.menu li a{
+	display: inline-block;
+	text-align:center;
+	font-size:20px;
+	display:block;
+	color:black;
+	padding: 14px 16px;
+	text-decoration:none;
+	transition: 0.3s;
+}
+li.menu a:hover{
+	background-color:#604e2b;
+	color:rgb(213,196,161);
+	text-decoration:none:
+}
+.active{
+	background-color:#4CAF50;
+	color:white;
+}
+/*contact form*/
+
+#forminput{
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
