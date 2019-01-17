@@ -3,13 +3,30 @@
     <header>
         
         <meta name="author" content="Tu Anh Nguyen">
-        
+        <meta charset="utf-8"/>        
         <title>Contact Us</title>
         
         <!-- Linking to external style sheet -->
         <link rel="stylesheet" type="text/css" href="css/style.css"> 
 
     </header>
+    
+    <style>
+        #submit{
+            background-color:#4CAF50;
+            padding:10px;
+            font-size:20;
+            color:white;
+            border-radius:20px;
+            border:0px;
+        }    
+
+        br{
+            margin-top:10px;
+            margin-bottom:10px;
+        }
+
+    </style>
 
 	<body>
 
@@ -23,7 +40,6 @@
 				<td> Promoting a fun and creative culture </td>
 			<tr>
 		</table>
-		
 
 		<ul class="menu">
 			<li class="menu"> <a href="index.html"> Home </a> </li>
@@ -43,28 +59,42 @@
 		    <label>First Name</label><br>
 		    <input type="text" id=forminput placeholder="Fong">
 			<br>	
+
 		    <label>Last Name</label><br>
 		    <input type="text" id=forminput placeholder="Carpenter">
 			<br>	
+
 			<label>Email</label><br>
 		    <input type="text" id=forminput placeholder="fong@funcap.com">
 			<br>	
+
 		    <label>Customer Type</label>
+	        <br>	
+
 		    <select>
 		      <option value="designer">Designer</option>
 		      <option value="buyer">Fun Cap Buyer</option>
 		      <option value="other">Others</option>
 		    </select>
-			<br style="margin:30px;">
+            <br>
+
+		    <label>Do you enjoy our product fun?</label>
+            <br>
+
+            <input type="radio" name="funcap" value ="Yes"> Yes :D
+            <input type="radio" name="funcap" value ="No"> No :(
+	        <br>	
+
 		    <label>Title</label><br>
 		    <input type="text" id=forminput placeholder="Title">
 			<br>	
+
 			<label>Subject</label><br>
 		    <textarea placeholder="Subject" style="height:200px;width:40%;"></textarea>
 			<br>	
 			
 			<input style="margin:20px" type="checkbox" name="emailcc" value="emailcc">Email a copy to your email<br>
-		    <input type="submit" value="Submit">
+		    <input id="submit" type="submit" value="Submit">
 		</div>
 
        
@@ -72,7 +102,7 @@
         <hr>
         <table  style="width=100%">
             <tr>
-                <td> Email: <a href=mailto:fun@funcap.com> fun@funcap.com </a>
+                <td> Email: <a href=mailto:fun@funcap.com> fun@funcap.com </a> </td>
             </tr>
             <tr>
                 <td> Address: 2629 Wabash ave,</td> 
